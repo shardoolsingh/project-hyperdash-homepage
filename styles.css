@@ -5,3 +5,55 @@
     text-decoration: none;
     list-style: none;
 }
+
+body{
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+
+.wrapper-primary{
+    max-width: 90%;
+    margin: auto;
+}
+
+/********************* navigation begins *************/
+
+.navigation{
+    background-color: #1a1a1a;
+    padding: 2rem 0;
+}
+
+.navbar{
+ display: grid;
+ grid-template-columns: repeat(12, 1fr);   
+}
+
+.navbar a{
+    color: #ffffff;
+}
+
+.navbar a:hover{
+    color: #fcdc55;
+    font-weight: bold;
+}
+
+.nav-items-1{
+    grid-column: span 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items-2{
+    grid-column: span 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    grid-column: span 6;
+    text-align: center;
+}
+
+
+/********************** navigation ends *********************/
