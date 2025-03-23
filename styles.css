@@ -90,3 +90,27 @@ body{
     color: #fcdc55;
 }
 /********************** hero ends *********************/
+
+/********************** air-x starts *********************/
+
+.air-x{
+    background-color: #1a1a1a;
+    padding: 4rem 0;
+}
+
+.air-x h2{
+    font-size: 3rem;
+}
+
+.air-x h2, .air-x h3{
+    padding: 1rem 0;
+}
+
+.air-x-image-container{
+    background-image: url(assets/Features\ 2.1\ video.jpg);
+    width: 60%;
+    height: 70vh;
+}
+
+
+/********************** air-x ends *********************/
