@@ -217,3 +217,47 @@ h3{
 }
 
 /********************* air-x-feature-3 ends ********************/
+
+/********************** air-x-specs starts ********************/
+
+.air-x-specs{
+    background-color: #000;
+}
+
+.air-x-specs-wrapper{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    min-height: 110vh;
+}
+
+.air-x-specs-image{
+    grid-column: span 6;
+    background-image: url(assets/Model-X-Specs-Hero-Desktop-LHD\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.air-x-specs-info{
+    grid-column: span 6;
+    margin: auto;
+}
+
+.air-x-specs-info h3{
+    padding-bottom: 1.5rem;
+}
+
+.air-x-specs-info-cards{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+}
+
+.air-x-specs-info-cards p{
+    font-size: .9rem;
+}
+
+.air-x-specs-info-cards div{
+    grid-column: span 6;
+}
+/*********************** air-x-specs ends ***********************/
