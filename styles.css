@@ -385,3 +385,34 @@ h3{
 }
 
 /********************* air-x-accelerate ends *******************/
+
+
+/********************** stories starts ************************/
+
+.stories{
+    background-color: #1a1a1a;
+    padding: 6rem 0;
+}
+
+.stories-items-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .wrapper-primary div{
+    padding-right: 3rem;
+}
+
+.stories h4{
+    padding: 1rem 0;
+}
+
+.stories h2{
+    padding-bottom: 3rem;
+}
+
+.stories p{
+    font-size: .9rem;
+}
+
+/********************** stories ends *************************/
