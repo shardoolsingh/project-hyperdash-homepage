@@ -9,12 +9,18 @@
 body{
     color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .wrapper-primary{
     max-width: 90%;
-    margin: auto;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: .7rem 1.5rem;
+    border-radius: 0;
+    border: none;
 }
 
 /********************* navigation begins *************/
@@ -57,3 +63,30 @@ body{
 
 
 /********************** navigation ends *********************/
+
+/********************** hero starts *********************/
+
+.hero{
+    background-image: url(assets/Hero\ Image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 120vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.btn-hero-cta{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-hero-cta:hover{
+    border: 2px solid #fcdc55;
+    color: #fcdc55;
+}
+/********************** hero ends *********************/
