@@ -169,3 +169,51 @@ h3{
 }
 
 /********************** lexo-z ends *********************/
+
+/********************** air-x-feature-3 starts ***************/
+
+.air-x-feature-3{
+    background-image: url(assets/Features\ 2.3\ Img.jpg);
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.air-x-feature-3-info{
+    color: black;
+    width: 40%;
+    margin-top: 6rem;
+    
+}
+
+.air-x-feature-3-info p{
+    padding-bottom: 1rem;
+    font-size: .9rem;
+}
+
+.air-x-feature-3-cta{
+    padding: 2rem 0;
+}
+
+.air-x-feature-3-cta-primary{
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.air-x-feature-3-cta-primary:hover{
+    background-color: transparent;
+    border: 1px solid #1a1a1a;
+    color: #1a1a1a;
+}
+
+.air-x-feature-3-cta-secondary{
+    color: #1a1a1a;
+    padding-left: 1rem;
+}
+
+.air-x-feature-3-cta-secondary:hover{
+    text-decoration: underline;
+}
+
+/********************* air-x-feature-3 ends ********************/
