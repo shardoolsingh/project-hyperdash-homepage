@@ -263,6 +263,79 @@ h3{
 /*********************** air-x-specs ends ***********************/
 
 /********************** gallary starts **************************/
+.gallary{
+    background-color: #1a1a1a;
+    padding: 6rem 0;
+}
 
+.gallary-stats{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+    text-align: center;
+}
 
+.gallary-stats div h5{
+    font-size: .7rem;
+    padding-bottom: 1.5rem;
+}
+
+.gallary-stats-first-para{
+    font-size: 2rem;
+    padding-bottom: .7rem;
+}
+
+.gallary-stats-second-para{
+    font-size: 1rem;
+}
+
+.gallary-sec-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+
+.gallary-sec-1 h4{
+    padding: 1rem 0;
+}
+
+.gallary-sec-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+    gap: 1rem;
+}
+
+.gallary-sec-2 h4{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.gallary-sec-2 p{
+    font-size: .9rem;
+    padding-bottom: 2rem;
+    text-wrap: wrap;
+}
+
+.gallary-sec-3{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+    padding: 3rem 0;
+}
+
+.gallary-sec-3-first{
+    grid-column: span 6;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+}
+
+.gallary-sec-3-first img{
+    grid-column: span 6;
+}
+
+.gallary-sec-3-second{
+    grid-column: span 6;
+}
 /********************** gallary ends ****************************/
