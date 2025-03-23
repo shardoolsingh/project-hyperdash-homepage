@@ -12,6 +12,16 @@ body{
     font-size: 1.1rem;
 }
 
+h2{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
 .wrapper-primary{
     max-width: 90%;
     margin: 0 auto;
@@ -21,6 +31,7 @@ body{
     padding: .7rem 1.5rem;
     border-radius: 0;
     border: none;
+    cursor: pointer;
 }
 
 /********************* navigation begins *************/
@@ -98,10 +109,6 @@ body{
     padding: 4rem 0;
 }
 
-.air-x h2{
-    font-size: 3rem;
-}
-
 .air-x h2, .air-x h3{
     padding: 1rem 0;
 }
@@ -114,3 +121,51 @@ body{
 
 
 /********************** air-x ends *********************/
+
+
+/********************** lexo-z starts *********************/
+
+.lexo-z{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    min-height: 110vh;
+}
+
+.lexo-z-info{
+    grid-column: span 6;
+    background-color: #1a1a1a;
+    padding: 10rem;
+}
+
+.lexo-z-info ul{
+    padding: 2rem 0;
+}
+
+.lexo-z-info li{
+    font-size: .8rem;
+    line-height: 1.5rem;
+}
+
+.lexo-z-image{
+    grid-column: span 6;
+    background-image: url(assets/Features\ 2.2\ Image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lexo-z-info button:hover{
+    border: 2px solid #fcdc55;
+}
+
+.lexo-z-cta-secondary{
+    color: white;
+    padding-left: 1rem;
+}
+
+.lexo-z-cta-secondary:hover{
+    text-decoration: underline;
+    color: #fcdc55;
+}
+
+/********************** lexo-z ends *********************/
