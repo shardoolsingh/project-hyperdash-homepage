@@ -339,3 +339,49 @@ h3{
     grid-column: span 6;
 }
 /********************** gallary ends ****************************/
+
+/********************** air-x-accelerate starts ******************/
+
+.air-x-accelerate{
+    background-image: url(assets/Air\ X\ Img\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+.air-x-accelerate > .wrapper-primary{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.air-x-accelerate .wrapper-primary > div{
+    grid-column: span 6;
+    padding-top: 20rem;
+}
+
+.air-x-accelerate-cta{
+    padding: 1.5rem 0;
+}
+
+.air-x-accelerate-cta-primary{
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+.air-x-accelerate-cta-primary:hover{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.air-x-accelerate-cta-secondary{
+    color: #ffffff;
+    padding-left: 1rem;
+}
+
+.air-x-accelerate-cta-secondary:hover{
+    text-decoration: underline;
+}
+
+/********************* air-x-accelerate ends *******************/
