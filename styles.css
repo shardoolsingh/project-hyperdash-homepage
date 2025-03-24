@@ -72,6 +72,15 @@ h3{
     text-align: center;
 }
 
+.logo a{
+    color: #fcdc55;
+    font-weight: bold;
+}
+
+.logo a:hover{
+    opacity: 0.8;
+}
+
 
 /********************** navigation ends *********************/
 
